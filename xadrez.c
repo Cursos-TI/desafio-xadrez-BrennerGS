@@ -34,5 +34,16 @@ int main() {
         r++;
     }
 
+    // update nivel aventureiro
+
+    printf("\n Movendo cavalo  \n");
+    int movimento = 1;
+    while (movimento--) {
+        for (int i = 0; i < 2; i++) {
+            printf("Cima\n");
+        }
+        printf("Direita\n");
+    }
+
     return 0;
 }
